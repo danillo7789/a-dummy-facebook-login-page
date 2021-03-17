@@ -1,0 +1,112 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.contain{
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    margin-top: 18%;
+}
+
+.fb{
+    font-size: 420%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: rgb(63, 139, 226);
+}
+
+.txt{
+    font-size: 180%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right{
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 13%;
+}
+
+.login_table{
+    width: 80%;
+    background-color: white;
+    /* border: 5px darkslategray; */
+    box-shadow: 3px 3px  rgb(151,145,145,0.2);
+    border-radius: 7px;
+    padding-top: 4%;
+    margin-left: 20%;
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    margin-left: 4%;
+    font-size: large;
+    margin-bottom: 6px;
+    border: 1px solid rgb(224, 214, 214);
+    border-radius: 5px;
+}
+
+button{
+    width: 92%;
+    margin-left: 4%;
+    height: 47px;
+    background-color:rgb(41, 118, 206);
+    color: #fff;
+    border: 1px solid  rgb(63, 139, 226);
+    border-radius: 5px;
+    font-size: large;
+}
+
+#txte{
+    padding-left: 33%;
+    color: rgb(63, 139, 226);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#greenBtn{
+    background-color: rgb(16, 165, 16);
+    height: 45px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+
+#greenBtn:hover{
+    background-color: rgb(11, 119, 11);;
+}
+
+button:hover{
+    background-color:rgb(32, 98, 173);
+}
+
+@media(max-width: 550px){
+    .contain{display: grid;}
+    .left{width: 100%;}
+    .right{width: 100%;}
+    .login_table{margin-left: 0%; margin: 0 auto;}
+}
+
+@media(max-width: 330px){
+    .contain{display: grid;
+         padding-left: 8%;}
+    .left{width: 100%;}
+    .right{width: 100%;}
+    .login_table{margin-left: 0%; margin: 0 auto;}
+}
+
+@media(max-width: 300px){
+    .contain{display: grid;
+         padding-left: 2%;}
+    .left{width: 100%;}
+    .right{width: 100%;}
+    .login_table{margin-left: 0%; margin: 0 auto;}
+}
